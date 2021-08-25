@@ -37,7 +37,7 @@ header{
 }
 .top-wrapper{
     padding: 180px 0 100px 0;
-    background-image: url(bground.jpg);
+    background-image: url(https://github.com/rizkim30/timE02.progate.io/blob/main/bground.jpg?raw=true);
     background-size: cover;
     color: white;
     text-align: center;
@@ -72,6 +72,12 @@ header{
     width: 300px;
     height: 450px;
     padding: 5px 2px
+}
+.movie-icon img:hover{
+	 background-color: rgba(255, 255, 255, 0.3);
+}
+.txt-contents:hover{
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .txt-contents{
     width: 80%;
