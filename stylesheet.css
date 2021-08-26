@@ -54,8 +54,18 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+.menu-icon{
+    color: #D08B1C;
+    float: right;
+    display: none;
+    font-size: 25px;            
+    padding: 21px 20px;
+}
+.menu-icon img{
+    height: 40px;
+    width: 40px;
+}
 .movie-wrapper{
-    height : 1146px;
     padding-bottom: 80px;
     background-color:#171C1A ;
     text-align: center;
@@ -73,11 +83,11 @@ header{
     height: 450px;
     padding: 5px 2px
 }
-.movie-icon img:hover{
-	 background-color: rgba(255, 255, 255, 0.3);
+.clear{
+    clear: left;
 }
 .txt-contents:hover{
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(65, 67, 68, 0.5);
 }
 .txt-contents{
     width: 80%;
@@ -87,8 +97,32 @@ header{
     font-weight: bold;
     color: #D08B1C;
     background-color:#000000 ;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 8px 12px;
     font-family: Rokkit;
     letter-spacing : 2px;
+    cursor : pointer;
+    box-shadow: 0 5px #2f3542;
+}
+.txt-contents:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+footer{
+    background-color: #0B0A0A;
+}
+.left-footer{
+    padding: 20px 20px 10px 20px;
+    font-family: Rokkit;
+    font-size: 23px;
+    line-height: 2px;
+}
+.right-footer{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.right-footer img{
+    width:40px;
+    height: 40px; 
 }
