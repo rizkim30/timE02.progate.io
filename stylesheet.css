@@ -78,6 +78,11 @@ header{
 .movie-icon{
     padding-top: 40px;
 }
+
+.movie-icon:hover {
+    box-shadow: 0 8px 11px 0 rgba(68, 66, 66, 0.2);
+}
+
 .movie-icon img{
     width: 300px;
     height: 450px;
