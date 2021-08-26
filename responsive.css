@@ -1,0 +1,35 @@
+/* Untuk Tablet */
+@media (max-width: 1000px){
+    .movie{
+        width: 46%;
+        margin-bottom: 5px;
+    }
+    .top-wrapper h1{
+        font-size: 40px;
+    }
+}
+/* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media (max-width: 670px) {
+    /* Ubah width milik lesson ke 100% */
+    .movie{
+      width:100%;
+    }
+    footer{
+    text-align: center;
+    }   
+    .txt-contents{
+        width: 50%;
+    }
+    .top-wrapper h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .header-right{
+        display: none;
+    }
+}
