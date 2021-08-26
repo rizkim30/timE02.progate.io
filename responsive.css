@@ -14,10 +14,18 @@
 @media (max-width: 670px) {
     /* Ubah width milik lesson ke 100% */
     .movie{
-      width:100%;
+        width:100%;
+    }
+    .movie-icon img{
+        width: 200px;
+        height: 300px;
+        padding: 5px 2px
     }
     footer{
-    text-align: center;
+        text-align: center;
+    }
+    .left-footer{
+        font-size: 15px;
     }   
     .txt-contents{
         width: 50%;
